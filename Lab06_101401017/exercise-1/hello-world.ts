@@ -1,5 +1,5 @@
-function hello(name: string) {
-    return "Hello " + name;
-}
+let hello = (firstName: string, lastName: string) => {
+    return `Hello ${firstName} ${lastName}`;
+};
 
-console.log(hello("World"));
+console.log(hello("John", "Smith"));
