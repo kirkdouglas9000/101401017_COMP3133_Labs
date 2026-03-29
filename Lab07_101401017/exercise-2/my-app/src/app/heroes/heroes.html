@@ -1,0 +1,9 @@
+<h2>My Heroes</h2>
+
+<input type="text" appInputFormat placeholder="Type something..." />
+
+<ul>
+  <li *ngFor="let hero of heroes">
+    {{hero.name | removeSpaces}}
+  </li>
+</ul>
